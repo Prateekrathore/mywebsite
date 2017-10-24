@@ -1,0 +1,337 @@
+html{
+	margin:20;
+	padding:10;
+}
+/*
+.section p {
+    padding: 0;
+    margin: 0;
+	color:black;
+	background-color:;
+	width:150px;
+	
+}
+/*
+.section p:hover{
+	background-color:;
+    color:;
+}*/
+
+.img-circle {
+    border: 5px solid red;
+    border-radius: 50%;
+    
+	opacity:;
+
+}
+
+.section {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+	opacity:;
+}
+
+#header {
+    background-image: url("iron.jpg");
+    background-size: cover;
+	opacity:;
+}
+
+
+#header img {
+    display: block;
+    width: 90px;
+    height: 90px;
+    margin: auto;
+}
+
+
+.head1 img{
+
+opacity:;
+
+}	
+
+#mar{
+	font-weight:100px;
+	color:red;
+	font-size:50px;
+	}
+
+
+#head1 marquee{
+color:"red";
+
+}	
+#header h2{
+color:white;
+}
+
+#header h1{
+	color:white;
+}
+
+
+#header p {
+    font-size: 25pt;
+    color: white;
+    padding-top: 5px;
+    margin: 10;
+    font-weight: bold;
+    
+}
+
+.sec1 {
+	background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+	opacity:;
+	
+	
+}
+/*
+#head1 {background-image:url("https://www.google.co.in/url?sa=i&rct=j&q=&esrc=s&source=imgres&cd=&cad=rja&uact=8&ved=0ahUKEwiFrYCiwoLXAhVDYo8KHUmPBYwQjRwIBw&url=https%3A%2F%2Fwww.tumblr.com%2Ftagged%2F3d-illusion-gif&psig=AOvVaw3LNlDi8_oNTBoTPW2NGzMD&ust=1508702850694816");
+
+
+}
+*/
+/*
+#head1 {
+    background-image: url("illusion.gif");
+    background-size: cover;
+	height:1000px;
+	
+	opacity:;
+}
+*/
+/*
+#head1{
+	<video width=" " height="" controls>
+  <source src="forest.mp4" type="video/mp4">
+ 
+Your browser does not support the video tag.
+</video>
+
+}
+*/
+
+#vid{
+	min-width:50%;
+	min-height:50%;
+	width:auto;
+	height:auto;
+	background-size:cover;
+}
+
+ #video{
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        overflow: hidden;
+    }
+
+    #head1 > video {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 50%;
+        object-fit: cover;
+    }
+
+
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #000;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+	
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #fff;
+    color: black;
+	opacity:0.5;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #fff;
+    color: white;
+}
+-->
+
+.sec1 {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+	opacity:;
+	margin:10px;
+}
+
+
+
+button {
+    margin-top:30px;
+    float:left;
+    height:50px;
+}
+#slider {
+    float:left;
+    margin-right:10px;
+    margin-left:10px;
+}
+
+
+#color{
+	background-color:red;
+	background-size:cover;
+}
+	
+#head1{
+	
+	background-color:black;
+	background-size:cover;
+}
+
+html,body {
+	margin: 0;
+	padding: 0;
+}
+
+/*
+
+.slider {
+	width: 1024px;
+	margin: 2em auto;
+	
+}
+
+.slider-wrapper {
+	width: 100%;
+	height: 400px;
+	position: relative;
+}
+
+.slide {
+	float: left;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: opacity 3s linear;
+}
+
+.slider-wrapper > .slide:first-child {
+	opacity: 1;
+}
+
+
+
+/*
+################################
+* {box-sizing:border-box}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor:pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+*/
